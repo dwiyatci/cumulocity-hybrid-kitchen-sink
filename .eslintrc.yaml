@@ -1,0 +1,100 @@
+---
+env:
+  browser: true
+  node: true
+  jquery: true
+  jasmine: true
+  jest: true
+  protractor: true
+globals:
+  _: false
+  angular: false
+  d3: false
+  L: false
+  moment: false
+  module: false
+  inject: false
+  sinon: false
+  tentacle: false
+  async: true
+  common: true
+extends:
+  - airbnb-base
+parserOptions:
+  sourceType: script
+rules:
+  semi:
+    - error
+  spaced-comment:
+    - error
+    - always
+    - line:
+        exceptions:
+          - /
+      markers:
+        - //////////
+  valid-jsdoc:
+    - error
+    - requireReturn: false
+  no-use-before-define:
+    - error
+    - functions: false
+  no-param-reassign:
+    - error
+    - props: false
+  strict:
+    - error
+    - function
+  comma-dangle:
+    - error
+    - never
+  prefer-destructuring:
+    - error
+    - VariableDeclarator:
+        array: true
+        object: true
+      AssignmentExpression:
+        array: false
+        object: false
+    - enforceForRenamedProperties: false
+  import/no-extraneous-dependencies:
+    - error
+    - peerDependencies: true
+  # Turn off only the conflicting rules that we *really* need to turn off when using Prettier.
+  # Respect both kind of people: those who use Prettier and those who don't. :)
+  # All known rules that might conflict with Prettier:
+  # https://github.com/prettier/eslint-config-prettier/blob/master/index.js
+  # --- 8< snip ------
+  arrow-parens: off
+  function-paren-newline: off
+  indent: off
+  implicit-arrow-linebreak: off
+  object-curly-newline:
+    - error
+    - consistent: true
+  operator-linebreak: off
+  space-before-function-paren: off
+  max-len:
+    - error
+    - 120
+    - 2
+    - ignoreUrls: true
+      ignoreComments: false
+      ignoreRegExpLiterals: true
+      ignoreStrings: true
+      ignoreTemplateLiterals: true
+  no-confusing-arrow: off
+  quotes:
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: false
+  # --- >8 snap ------
+overrides:
+  - files:
+      - 'scripts/*.js'
+      - jest.config.js
+    parserOptions:
+      sourceType: module
+    rules:
+      global-require: off

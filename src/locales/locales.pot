@@ -1,0 +1,27 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+
+msgid "Kitchen sink"
+msgstr ""
+
+msgid "Lazy"
+msgstr ""
+
+msgid "Save the Earth"
+msgstr ""
+
+msgid "Type your \"hello, world\" text (e.g. in your own language &#x1F47D;):"
+msgstr ""
+
+msgid "hello, world"
+msgstr ""

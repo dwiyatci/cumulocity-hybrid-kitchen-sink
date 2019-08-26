@@ -1,0 +1,43 @@
+<div class="the-sink">
+  <div class="sink-item example-chart">
+    <c8y-chart
+      [datapoints]="chart.datapoints"
+      [dateFrom]="chart.dateFrom"
+      [dateTo]="chart.dateTo"
+      [aggregation]="chart.aggregation"
+      [realtime]="false"
+      [showTime]="chart.showTime"
+      [selectable]="chart.selectable"
+      (onUpdateDates)="chart.onUpdateDates($event.$dateFrom, $event.$dateTo)"
+      (onDataChange)="chart.onDataChange($event.chart)"
+    >
+    </c8y-chart>
+  </div>
+
+  <div class="sink-item example-dashboard-gridstack">
+    <c8y-dashboard-gridstack
+      dashboardName="my-gridstack"
+      [setPageTitle]="false"
+      [isFrozen]="false"
+      [defaultChildren]="dashboard.EXAMPLE_WIDGETS"
+      [useContext]="dashboard.useContext"
+      [setGlobal]="true"
+    >
+    </c8y-dashboard-gridstack>
+  </div>
+
+  <div class="sink-item example-filtered-sorted-list">
+    <c8y-filtered-sorted-list
+      [columns]="list.columns"
+      [columnsConfig]="list.columnsConfig"
+      [disableColumnsConfig]="list.disableColumnsConfig"
+      (onColumnsConfigChanged)="list.onColumnsConfigChanged($event.columnsConfig)"
+      [items]="list.items"
+      (onItemClick)="list.onItemClick($event.item)"
+      [noItemsMessage]="list.noItemsMessage"
+      [showLoadMore]="list.showLoadMore"
+      (onLoadMore)="list.onLoadMore()"
+    >
+    </c8y-filtered-sorted-list>
+  </div>
+</div>

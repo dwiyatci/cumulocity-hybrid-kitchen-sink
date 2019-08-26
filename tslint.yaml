@@ -1,0 +1,35 @@
+---
+defaultSeverity: error
+extends:
+  - tslint-config-airbnb-base
+rulesDirectory: []
+rules:
+  trailing-comma:
+    severity: off
+  variable-name:
+    severity: default
+    options:
+      - check-format
+      - allow-leading-underscore
+      - allow-trailing-underscore
+  arrow-parens:
+    severity: off
+  ter-arrow-parens:
+    severity: off
+  max-line-length:
+    severity: default
+    options:
+      - limit: 120
+        ignore-pattern: //
+  ter-max-len:
+    severity: default
+    options:
+      - code: 120
+        ignore-pattern: //
+  no-magic-numbers:
+    severity: off
+  ter-indent:
+    severity: off
+  ordered-imports:
+    severity: default
+jsRules: {}

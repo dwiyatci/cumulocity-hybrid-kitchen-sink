@@ -1,0 +1,37 @@
+{
+  "name": "hybrid-kitchen-sink",
+  "version": "1.0.0",
+  "main": "index.js",
+  "c8y": {
+    "application": {
+      "name": "Hybrid kitchen sink",
+      "contextPath": "hybridkitchensink",
+      "key": "hybrid-kitchen-sink-application-key",
+      "globalTitle": "Cloud of Pipers",
+      "rightDrawer": true,
+      "tabsHorizontal": true,
+      "contentSecurityPolicy": "default-src 'self' 'unsafe-inline' http: https: ws: wss:; connect-src 'self' *.billwerk.com http: https: ws: wss:;  script-src 'self' *.mapquestapi.com 'unsafe-inline' 'unsafe-eval' data:; style-src * 'unsafe-inline' blob:; img-src * data:; font-src * data:; frame-src *;",
+      "upgrade": true,
+      "brandingEntry": "./branding/index.less",
+      "entryModule": "./app/app.module#AppModule",
+      "xtsConfigPath": "../tsconfig.app.json",
+      "icon": {
+        "xxurl": "url(http://localhost:9000/apps/hybridkitchensink/assets/logo-nav.svg)",
+        "xurl": "url(/apps/hybridkitchensink/assets/logo-nav.svg)",
+        "class": "app-icon-hider"
+      },
+      "languages": {
+        "en": {
+          "name": "English",
+          "nativeName": "English"
+        },
+        "id": {
+          "name": "Indonesian",
+          "nativeName": "Bahasa Indonesia",
+          "xxurl": "http://localhost:9000/apps/hybridkitchensink/locales/id.json",
+          "xurl": "/apps/hybridkitchensink/locales/id.json"
+        }
+      }
+    }
+  }
+}
