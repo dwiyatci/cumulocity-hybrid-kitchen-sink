@@ -8,7 +8,7 @@ A Cumulocity hybrid "kitchen sink" app for showcasing the following:
 
 - [x] extending default app (i.e. Cockpit).
 - [x] creating a custom widget in Angular and using it side-by-side with existing widgets.
-- [x] reusing some Cumulocity services and components from AJS (AngularJS) world by upgrading.
+- [x] reusing some Cumulocity services and components from AJS (AngularJS) realm by upgrading.
 - [x] applying custom branding.
 - [x] adding and loading custom language translations.
 - [x] setting up unit testing infrastructure.
@@ -26,7 +26,7 @@ A Cumulocity hybrid "kitchen sink" app for showcasing the following:
 - corporate crap interruptions,
 - corporate crap customer calls,
 - corporate crap support duties,
-- corporate crap under qualified/not-willing-to-learn/annoying Earthlings,
+- corporate crap underqualified/not-willing-to-learn/annoying Earthlings,
 - and other corporate craps in between.
 
 What a jerk, you say? Yes, I'm being a jerk here. ¬‿¬
@@ -73,6 +73,8 @@ $ yarn install:clean
 ```bash
 $ yarn start -u <your_tenant_url>
 ```
+
+- Find the running hybrid kitchen sink (extended Cockpit) app at: <http://localhost:9000/apps/hybridkitchensink/>.
 
 ## Unit testing
 
