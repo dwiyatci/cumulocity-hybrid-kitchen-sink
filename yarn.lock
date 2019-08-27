@@ -904,10 +904,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@c8y/apps@1005.0.0":
-  version "1005.0.0"
-  resolved "https://registry.yarnpkg.com/@c8y/apps/-/apps-1005.0.0.tgz#1d9bd5a3c12646a5bead0a920f4633fc052b5096"
-  integrity sha512-EqixyOLOxK6rpDOaxqvZKC515oBjGxFSKM4l+tVJY8zyLwNrrCp/jKFruZEYrrsjHBvp+hn6Oql9NNVndmjIeQ==
+"@c8y/apps@1005.1.0":
+  version "1005.1.0"
+  resolved "https://registry.yarnpkg.com/@c8y/apps/-/apps-1005.1.0.tgz#40f45aae4bced7f2052103d17f769339eb4a43a2"
+  integrity sha512-4Ds0SIKj625PsgdGojlMJlUcHJMIdBbg4ucH1YOZLlj3S3mLtFM4Gq/36FUPtFMeCv9QaV0ouw4zL15yygvPkg==
   dependencies:
     "@angular/animations" "7.2.2"
     "@angular/common" "7.2.2"
@@ -919,22 +919,22 @@
     "@angular/platform-browser-dynamic" "7.2.2"
     "@angular/router" "7.2.2"
     "@angular/upgrade" "7.2.2"
-    "@c8y/ngx-components" "1005.0.0"
+    "@c8y/ngx-components" "1005.1.0"
     core-js "^2.6.2"
     rxjs "~6.3.3"
     url-search-params-polyfill "6.0.0"
     zone.js "~0.8.28"
 
-"@c8y/cli@1005.0.0":
-  version "1005.0.0"
-  resolved "https://registry.yarnpkg.com/@c8y/cli/-/cli-1005.0.0.tgz#ca7affa70ab05047952409445d037c765393d88d"
-  integrity sha512-RtwqFu+Nv8Z2mKQcQ6swCAHMirl1E3Wgo6cimNGmRI20uSMOFgZsxDNKSDYABBNhKYst8XE4YkkIJhdZtwuW3Q==
+"@c8y/cli@1005.1.0":
+  version "1005.1.0"
+  resolved "https://registry.yarnpkg.com/@c8y/cli/-/cli-1005.1.0.tgz#e9ae49583b5ff3edccea193117e2b56d7678bc2d"
+  integrity sha512-9pZshYET+hK/V/2YWYirm3faPljnppGiYGn/arMzCupHe6q1yG84MjzDvdpiZAmASPfmYNKeCLIuXFxRxVFobg==
   dependencies:
     "@babel/core" "7.4.3"
     "@babel/plugin-proposal-object-rest-spread" "7.4.3"
     "@babel/plugin-syntax-dynamic-import" "7.2.0"
     "@babel/preset-env" "7.4.3"
-    "@c8y/client" "1005.0.0"
+    "@c8y/client" "1005.1.0"
     JSONPath "0.11.2"
     angular-gettext-tools "2.4.1"
     babel-eslint "10.0.1"
@@ -952,6 +952,7 @@
     http-proxy-middleware "0.19.1"
     imports-loader "^0.8.0"
     less "^3.8.0"
+    less-loader "5.0.0"
     lodash "4.17.11"
     log-update "2.3.0"
     optimize-css-assets-webpack-plugin "5.0.1"
@@ -968,13 +969,13 @@
     yargs "12.0.2"
     zip-dir "1.0.2"
 
-"@c8y/client@1005.0.0":
-  version "1005.0.0"
-  resolved "https://registry.yarnpkg.com/@c8y/client/-/client-1005.0.0.tgz#36f3c9bd415dd692fe0d9ee99fbbe1038a362602"
-  integrity sha512-B0ublLDV+zxvhpVBoAsZza18w8GMJgCBts1RogM5DjaI6QzBGH+rMhl54pVUa/pB6FOe4zdVn/H61jlBRv6KfA==
+"@c8y/client@1005.1.0":
+  version "1005.1.0"
+  resolved "https://registry.yarnpkg.com/@c8y/client/-/client-1005.1.0.tgz#87363d7686b6efd5ce07d42b3b58f126e5153585"
+  integrity sha512-BlqxaGWOyxJ9FGmy4MOdNKFYfwN9bk7ixyHjAerm168XUtT70GIVGfPZTNZtXj4ms87NKVsn1U4wHt2DgGkDDA==
   dependencies:
     "@types/node" "10.1.4"
-    btoa-lite "1.0.0"
+    b2a "1.1.2"
     cometd "3.1.4"
     cometd-nodejs-client "1.0.2"
     cross-fetch "2.1.0"
@@ -982,10 +983,10 @@
     isomorphic-cometd "1.1.0"
     rxjs "~6.3.3"
 
-"@c8y/ng1-modules@1005.0.0":
-  version "1005.0.0"
-  resolved "https://registry.yarnpkg.com/@c8y/ng1-modules/-/ng1-modules-1005.0.0.tgz#0da1a7f040abd875f53e35a7427f7e0acfb1591f"
-  integrity sha512-eK1Wk8sXP1Zl3Haz3BVVUMBnDclErubPJNF42Afg5nX4Lakxw1h8Okq1lvUZl5776LSByh9CG4hYsoB6DcPmlA==
+"@c8y/ng1-modules@1005.1.0":
+  version "1005.1.0"
+  resolved "https://registry.yarnpkg.com/@c8y/ng1-modules/-/ng1-modules-1005.1.0.tgz#10c2e9d199d42566131887a423d2700e9666a7a5"
+  integrity sha512-q5th8YPuhKksDra/ZIYwFdTwGR6XKzJBudLQW3MO/viZm1xISv8KRDiEeZrcrRX1tV6WP3V5fyW715Km3mnofQ==
   dependencies:
     "@claviska/jquery-minicolors" "2.2.6"
     ace-builds "1.4.5"
@@ -1007,7 +1008,6 @@
     angular-ui-sortable "0.15.1"
     angularjs-nvd3-directives "https://github.com/piotrjaw/angularjs-nvd3-directives/archive/v0.0.8.tar.gz"
     bootstrap "3.3.5"
-    c8y-ip.js "1.1.2"
     cometd "3.1.4"
     d3 "3.5.5"
     dompurify "1.0.10"
@@ -1016,6 +1016,7 @@
     font-awesome "4.7.0"
     gridstack "0.2.6"
     ini "1.3.5"
+    ip.js "1.2.2"
     jquery "3.3.1"
     jquery-ui "1.12.1"
     leaflet "0.7.7"
@@ -1035,23 +1036,23 @@
     xterm "3.5.0"
     zip-js "0.0.2"
 
-"@c8y/ngx-components@1005.0.0":
-  version "1005.0.0"
-  resolved "https://registry.yarnpkg.com/@c8y/ngx-components/-/ngx-components-1005.0.0.tgz#f0758ebe65b4437c0b6d92faa2005cec7bdc6567"
-  integrity sha512-KZ6nr058K0UASEHC1tkypsAAtRqfinTL3k6zI4d29cVvsagq/OHJwTfeylgJ8CXPdPp3ssq0Z9O8DNXkSjdGqA==
+"@c8y/ngx-components@1005.1.0":
+  version "1005.1.0"
+  resolved "https://registry.yarnpkg.com/@c8y/ngx-components/-/ngx-components-1005.1.0.tgz#e29b2feaf59351309ec6930ca8126f6b0db31e52"
+  integrity sha512-P0ia2t63sjsSKHQP30S+r1RZEU/hP7VPjCOdIKwug9MWZeRabRRxs7AfJ8B17Tq12Mr0VNbztVd4cyu4cElXWQ==
   dependencies:
-    "@c8y/client" "1005.0.0"
+    "@c8y/client" "1005.1.0"
     "@ngx-translate/core" "10.0.2"
     "@ngx-translate/http-loader" "3.0.1"
     libphonenumber-js "1.7.14"
     lodash-es "^4.0.0"
-    ngx-bootstrap "^5.1.0"
+    ngx-bootstrap "^5.1.1"
     tslib "^1.9.2"
 
-"@c8y/style@1005.0.0":
-  version "1005.0.0"
-  resolved "https://registry.yarnpkg.com/@c8y/style/-/style-1005.0.0.tgz#1ce8cf33e41493d29419c9144273014567469048"
-  integrity sha512-gtuoGUCmFaX3GCMNBqP+p7VctgSvdeNDaJr8LH+KZZmv138DNBw88Gcl0joxiVWp5kTmlISe4c/0wQAcS4jteg==
+"@c8y/style@1005.1.0":
+  version "1005.1.0"
+  resolved "https://registry.yarnpkg.com/@c8y/style/-/style-1005.1.0.tgz#d6c16f4c3a8716829998e96e0c41674cbe92336f"
+  integrity sha512-AWtxodylFDXYDK4MjI767ft4XXRPqRocaBH8YcCuxxidP/B8OPFLQrLR10bA+pL8k2n4MkyDppy//32rfdIoyg==
   dependencies:
     font-awesome "4.7.0"
 
@@ -2185,6 +2186,11 @@ aws4@^1.6.0, aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.8.0.tgz#f0e003d9ca9e7f59c7a508945d7b2ef9a04a542f"
   integrity sha512-ReZxvNHIOv88FlT7rxcXIIC0fPt4KZqZbOlivyWtXLt8ESx84zd3kMC6iK5jVeS2qt+g7ftS7ye4fi06X5rtRQ==
 
+b2a@1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/b2a/-/b2a-1.1.2.tgz#3bb0a7dbc0931c84ac97722fa4f5f51ba0a7d831"
+  integrity sha512-Ee7SUAyWeIx4ICRygOi7dVlGpHRxynsaLIZwOtHtGKls3LhLchTRk5KrI0O8ioWqy94ikkE8Z2Li3LWNd027/A==
+
 babel-code-frame@^6.26.0:
   version "6.26.0"
   resolved "https://registry.yarnpkg.com/babel-code-frame/-/babel-code-frame-6.26.0.tgz#63fd43f7dc1e3bb7ce35947db8fe369a3f58c74b"
@@ -2606,11 +2612,6 @@ bser@^2.0.0:
   dependencies:
     node-int64 "^0.4.0"
 
-btoa-lite@1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/btoa-lite/-/btoa-lite-1.0.0.tgz#337766da15801210fdd956c22e9c6891ab9d0337"
-  integrity sha1-M3dm2hWAEhD92VbCLpxokaudAzc=
-
 buffer-from@1.x, buffer-from@^1.0.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
@@ -2664,13 +2665,6 @@ bytes@3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/bytes/-/bytes-3.1.0.tgz#f6cf7933a360e0588fa9fde85651cdc7f805d1f6"
   integrity sha512-zauLjrfCG+xvoyaqLoV8bLVXXNGC4JqlxFCutSDWA6fJrTo2ZuvLYTqZ7aHBLZSMOopbzwv8f+wZcVzfVTI2Dg==
-
-c8y-ip.js@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/c8y-ip.js/-/c8y-ip.js-1.1.2.tgz#17c702f1cc416e98c800ad5d74a2d63834fbd7a4"
-  integrity sha512-U0PmV3OnzKyLFGWAosvs1bzfLxfPjulgN88p9bgX17gjc5FwSWi6TMgLQV8tMN0naa9UrTpzt8pBM/z6lH7YmA==
-  dependencies:
-    jsbi "^2.0.5"
 
 cacache@^10.0.4:
   version "10.0.4"
@@ -5796,6 +5790,13 @@ ip-regex@^2.1.0:
   resolved "https://registry.yarnpkg.com/ip-regex/-/ip-regex-2.1.0.tgz#fa78bf5d2e6913c911ce9f819ee5146bb6d844e9"
   integrity sha1-+ni/XS5pE8kRzp+BnuUUa7bYROk=
 
+ip.js@1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/ip.js/-/ip.js-1.2.2.tgz#bb691e485b5538da12eeb61d106537eafd42ae5e"
+  integrity sha512-v1SCB+ZS/S3XsNYDJxFOuTLdBRHqns5nFpumMotw+uV370vtnSFFFll+LcPP/+jNbeuMU4b+ytwMT3Hy2UnSUQ==
+  dependencies:
+    jsbi "^3.0.0"
+
 ip@^1.1.0, ip@^1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/ip/-/ip-1.1.5.tgz#bdded70114290828c0a039e72ef25f5aaec4354a"
@@ -6715,10 +6716,10 @@ js-yaml@3.x, js-yaml@^3.13.0, js-yaml@^3.13.1:
     argparse "^1.0.7"
     esprima "^4.0.0"
 
-jsbi@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-2.0.5.tgz#82589011da87dc59b4b549d94dcef51a9155f6fe"
-  integrity sha512-TzO/62Hxeb26QMb4IGlI/5X+QLr9Uqp1FPkwp2+KOICW+Q+vSuFj61c8pkT6wAns4WcK56X7CmSHhJeDGWOqxQ==
+jsbi@^3.0.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.1.0.tgz#d5491c1dd9423ece70af525866cae4adc0de9642"
+  integrity sha512-R3oYDbvvScLbv9y3z1lT7a8ZBVcTh6ehQDX7rjkZdKJeHlSP2mLkB2D66nrk+D1poU/u8vhlMz1RuOUXvSDbGQ==
 
 jsbn@~0.1.0:
   version "0.1.1"
@@ -6975,6 +6976,15 @@ less-loader@4.1.0:
     clone "^2.1.1"
     loader-utils "^1.1.0"
     pify "^3.0.0"
+
+less-loader@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/less-loader/-/less-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
+  integrity sha512-bquCU89mO/yWLaUq0Clk7qCsKhsF/TZpJUzETRvJa9KSVEL9SO3ovCvdEHISBhrC81OwC8QSVX7E0bzElZj9cg==
+  dependencies:
+    clone "^2.1.1"
+    loader-utils "^1.1.0"
+    pify "^4.0.1"
 
 less@3.8.1:
   version "3.8.1"
@@ -7767,7 +7777,7 @@ ng-csv@0.3.3:
   resolved "https://registry.yarnpkg.com/ng-csv/-/ng-csv-0.3.3.tgz#56e476ffe4484c6f82f6f81571a48b5558469496"
   integrity sha1-VuR2/+RITG+C9vgVcaSLVVhGlJY=
 
-ngx-bootstrap@^5.1.0:
+ngx-bootstrap@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/ngx-bootstrap/-/ngx-bootstrap-5.1.1.tgz#aab63b218611eeeaed0c9e224f2033a992ac6e57"
   integrity sha512-++6+YHbIWTR/3sHH9C0aelIP25KMKhylWSEet6HonZfVr8quzEUjq6xEzTnDbZpnxlly2j58Gg0O9DWXu0UCxA==
