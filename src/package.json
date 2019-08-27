@@ -14,7 +14,7 @@
       "upgrade": true,
       "brandingEntry": "./branding/index.less",
       "entryModule": "./app/app.module#AppModule",
-      "xtsConfigPath": "../tsconfig.app.json",
+      "tsConfigPath": "../tsconfig.app.json",
       "icon": {
         "xxurl": "url(http://localhost:9000/apps/hybridkitchensink/assets/logo-nav.svg)",
         "xurl": "url(/apps/hybridkitchensink/assets/logo-nav.svg)",

@@ -32,7 +32,7 @@
     "use-c8y": "node ./scripts/use-c8y.js",
     "test": "jest",
     "start:glenn": "yarn start -u https://glenn.cumulocity.com",
-    "start": "c8ycli serve src --env.extraWebpackConfig=./c8ycli-extra-webpack.config.js",
+    "start": "c8ycli serve src --env.extraWebpackConfig=./c8ycli-extra-webpack.config.js --env.serverStaticAppsFolder=. --app.dynamicOptionsUrl=/apps/public-options/options.json",
     "build": "c8ycli build src --env.extraWebpackConfig=./c8ycli-extra-webpack.config.js",
     "deploy:glenn": "yarn deploy -u https://glenn.cumulocity.com -T glenn -U admin",
     "deploy": "c8ycli deploy dist/apps/hybridkitchensink",
