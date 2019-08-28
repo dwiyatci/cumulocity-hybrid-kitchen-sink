@@ -39,7 +39,13 @@ What a jerk, you say? Yes, I'm being a jerk here. ¬‿¬
 
 - Clone the repo, `cd` to your project directory.
 
-- Set the `@c8y/*` packages released (UI build) version you want to develop against:
+- Install dependencies:
+
+```bash
+$ yarn install:clean
+```
+
+- Adjust `@c8y/*` packages released (UI build) version you want to develop against:
 
 ```bash
 $ yarn use-c8y <@c8y_packages_version>
@@ -49,12 +55,6 @@ e.g.
 
 ```bash
 $ yarn use-c8y 1005.1.0
-```
-
-- Install dependencies:
-
-```bash
-$ yarn install:clean
 ```
 
 ## Usage
