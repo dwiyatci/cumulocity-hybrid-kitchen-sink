@@ -30,7 +30,8 @@ function upgradeC8YPackages(version) {
         '@c8y/client',
         '@c8y/ng1-modules',
         '@c8y/ngx-components',
-        '@c8y/style'
+        '@c8y/style',
+        '@c8y/cli'
       ]
         .map(pkg => `${pkg}@${version}`)
         .join(' ')}

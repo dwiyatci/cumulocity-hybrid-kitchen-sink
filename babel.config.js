@@ -11,15 +11,14 @@ module.exports = function(api) {
     [
       '@babel/preset-env',
       {
-        targets: {
-          browsers: ['last 2 versions']
-        },
+        targets: 'last 2 versions',
         useBuiltIns: 'entry',
-        corejs: '2',
+        corejs: 2,
         debug: false
       }
     ]
   ];
+
   const plugins = ['@babel/plugin-proposal-object-rest-spread'];
 
   return {

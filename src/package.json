@@ -12,6 +12,7 @@
       "tabsHorizontal": true,
       "contentSecurityPolicy": "default-src 'self' 'unsafe-inline' http: https: ws: wss:; connect-src 'self' *.billwerk.com http: https: ws: wss:;  script-src 'self' *.mapquestapi.com 'unsafe-inline' 'unsafe-eval' data:; style-src * 'unsafe-inline' blob:; img-src * data:; font-src * data:; frame-src *;",
       "upgrade": true,
+      "dynamicOptionsUrl": "/apps/public/public-options/options.json",
       "brandingEntry": "./branding/index.less",
       "entryModule": "./app/app.module#AppModule",
       "tsConfigPath": "../tsconfig.app.json",

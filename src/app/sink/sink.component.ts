@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { InventoryService } from '@c8y/client';
 
 import { forkJoin } from 'rxjs';
 import { map, switchMap, tap } from 'rxjs/operators';
@@ -155,7 +156,7 @@ export class SinkComponent implements OnInit {
     }
   };
 
-  constructor(private sinkService: SinkService) {}
+  constructor(private sinkService: SinkService, private inventoryService: InventoryService) {}
 
   ngOnInit() {
     const deviceId = '145075';
@@ -187,6 +188,13 @@ export class SinkComponent implements OnInit {
       .subscribe(devicesWithProperName => {
         this.list.items = () => devicesWithProperName;
       });
+
+    // this.inventoryService
+    //   .list$({ fragmentType: 'c8y_IsDevice' }, { realtime: true })
+    //   .subscribe(data => {
+    //     console.log('real time data:');
+    //     console.dir(data);
+    //   });
   }
 
   saveTheEarth() {
