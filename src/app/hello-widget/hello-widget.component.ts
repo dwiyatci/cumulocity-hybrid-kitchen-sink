@@ -1,5 +1,4 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { cloneDeep } from 'lodash-es';
 
 import { HelloWidgetService } from './hello-widget.service';
 
@@ -9,16 +8,15 @@ import { HelloWidgetService } from './hello-widget.service';
   styles: [require('!raw-loader!less-loader!./styles.less')]
 })
 export class HelloWidgetComponent implements OnInit {
-  config = {};
+  data: any;
 
-  @Input('config')
-  set _config(config) {
-    this.config = cloneDeep(config);
-  }
+  @Input() config;
 
   constructor(private helloService: HelloWidgetService) {}
 
   ngOnInit() {
-    this.helloService.getData().subscribe(console.log);
+    this.helloService.getData().subscribe(data => {
+      this.data = data;
+    });
   }
 }

@@ -1,30 +1,41 @@
-import { AfterViewInit, Component, Input, ViewChild } from '@angular/core';
-import { cloneDeep } from 'lodash-es';
+import {
+  AfterViewInit,
+  Component,
+  Input,
+  OnChanges,
+  SimpleChanges,
+  ViewChild
+} from '@angular/core';
 import { distinctUntilChanged } from 'rxjs/operators';
 
 @Component({
   selector: 'c8y-hello-widget-config',
   templateUrl: './hello-widget-config.component.html'
 })
-export class HelloWidgetConfigComponent implements AfterViewInit {
-  config = {
+export class HelloWidgetConfigComponent implements OnChanges, AfterViewInit {
+  private defaultConfig = {
     helloText: ''
   };
 
-  @Input('config')
-  set _config(config) {
-    this.config = {
-      ...this.config,
-      ...cloneDeep(config)
-    };
-  }
+  @Input() config;
+  @Input() ng1FormRef;
 
   @ViewChild('configForm') configForm;
 
+  ngOnChanges(changes: SimpleChanges): void {
+    if (changes) {
+      Object.assign(this.config, {
+        ...this.defaultConfig,
+        ...this.config
+      });
+    }
+  }
+
   ngAfterViewInit() {
     this.configForm.statusChanges.pipe(distinctUntilChanged()).subscribe(() => {
-      console.log(this.configForm.valid);
-      // this.ng1FormRef.$setValidity(this.configForm.valid);
+      // console.log(this.configForm.valid);
+      // console.dir(this.ng1FormRef);
+      this.ng1FormRef.$setValidity('configFormError', this.configForm.valid);
     });
   }
 }
