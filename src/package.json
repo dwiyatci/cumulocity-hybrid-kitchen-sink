@@ -30,7 +30,8 @@
           "name": "Indonesian",
           "nativeName": "Bahasa Indonesia",
           "xxurl": "http://localhost:9000/apps/hybridkitchensink/locales/id.json",
-          "xurl": "/apps/hybridkitchensink/locales/id.json"
+          "xurl": "/apps/hybridkitchensink/locales/id.json",
+          "url": "./locales/id.json"
         }
       }
     }

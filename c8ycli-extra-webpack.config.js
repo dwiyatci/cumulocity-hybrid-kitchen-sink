@@ -11,7 +11,10 @@ function config(env) {
 
   return {
     plugins: [
-      new CopyPlugin([{ from: './src/assets', to: 'assets' }, { from: './src/locales', to: '.' }])
+      new CopyPlugin([
+        { from: './src/assets', to: 'assets' },
+        { from: './src/locales', to: 'locales' }
+      ])
     ]
   };
 }
