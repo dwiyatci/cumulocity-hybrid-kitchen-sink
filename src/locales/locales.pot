@@ -11,16 +11,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 
+msgid "'hello, world' from a legacy plugin"
+msgstr ""
+
+msgid "Displays that classic \"hello, world\" string"
+msgstr ""
+
+msgid "Hello"
+msgstr ""
+
 msgid "Kitchen sink"
 msgstr ""
 
 msgid "Lazy"
 msgstr ""
 
-msgid "Save the Earth"
-msgstr ""
-
-msgid "Type your \"hello, world\" text (e.g. in your own language &#x1F47D;):"
+msgid "Type your 'hello, world' text (e.g. in your own language):"
 msgstr ""
 
 msgid "hello, world"
