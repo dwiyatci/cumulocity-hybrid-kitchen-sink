@@ -15,7 +15,7 @@
   });
 
   /* @ngInject */
-  function Controller() {
+  function Controller(gettext) {
     const vm = this;
 
     _.assign(vm, {
@@ -25,7 +25,7 @@
     ////////////
 
     function $onInit() {
-      vm.text = vm.text || 'hello, world';
+      vm.text = vm.text || gettext('hello, world');
     }
   }
 })();

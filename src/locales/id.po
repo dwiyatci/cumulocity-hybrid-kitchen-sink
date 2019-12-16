@@ -12,5 +12,23 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 
+msgid "'hello, world' from a legacy plugin"
+msgstr "'hello, world' dari sebuah plugin yang lawas"
+
+msgid "Displays that classic \"hello, world\" string"
+msgstr "Tampilkan \"hello, world\" string yang klasik itu"
+
+msgid "Hello"
+msgstr "Halo"
+
+msgid "Kitchen sink"
+msgstr "Wastafel dapur"
+
+msgid "Lazy"
+msgstr "Mager"
+
+msgid "Type your 'hello, world' text (e.g. in your own language):"
+msgstr "Ketik teks 'hello, world'-mu (dalam bahasa ibumu):"
+
 msgid "hello, world"
 msgstr "halo, dunia"

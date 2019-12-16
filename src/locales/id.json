@@ -1,1 +1,11 @@
-{"id":{"hello, world":"halo, dunia"}}
+{
+  "id": {
+    "'hello, world' from a legacy plugin": "'hello, world' dari sebuah plugin yang lawas",
+    "Displays that classic \"hello, world\" string": "Tampilkan \"hello, world\" string yang klasik itu",
+    "Hello": "Halo",
+    "Kitchen sink": "Wastafel dapur",
+    "Lazy": "Mager",
+    "Type your 'hello, world' text (e.g. in your own language):": "Ketik teks 'hello, world'-mu (dalam bahasa ibumu):",
+    "hello, world": "halo, dunia"
+  }
+}
