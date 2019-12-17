@@ -20,7 +20,7 @@ export class HelloWidgetConfigComponent implements OnChanges, AfterViewInit {
   @Input() config;
   @Input() ng1FormRef;
 
-  @ViewChild('configForm') configForm;
+  @ViewChild('configForm', { static: false }) configForm;
 
   ngOnChanges(changes: SimpleChanges): void {
     if (changes) {
