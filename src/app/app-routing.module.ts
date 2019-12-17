@@ -9,7 +9,7 @@ import { PageNotFoundComponent } from './shared/page-not-found/page-not-found.co
 const routes: Routes = [
   {
     path: 'lazy',
-    loadChildren: './lazy/lazy.module#LazyModule'
+    loadChildren: () => import('./lazy/lazy.module').then(m => m.LazyModule)
   },
   {
     path: '',
