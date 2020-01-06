@@ -2,15 +2,21 @@
  * Created by glenn on 20.08.19.
  */
 
+const { argv } = require('yargs')
+  .usage('Usage: node $0 <build_version>')
+  .demandCommand(1)
+  .help('h')
+  .alias('h', 'help');
+
 const semver = require('semver');
 const shell = require('shelljs');
-
-const [, , arg] = process.argv;
 
 main();
 
 function main() {
   try {
+    const [arg] = argv._;
+
     const version = semver.coerce(arg);
 
     if (!semver.valid(version)) {
