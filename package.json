@@ -89,7 +89,7 @@
     "jest-preset-angular": "7.1.1",
     "prettier": "1.18.2",
     "semver": "6.3.0",
-    "shelljs": "0.8.3",
+    "shelljs": "0.8.5",
     "tslint": "5.20.0",
     "tslint-config-airbnb-base": "0.3.0",
     "typescript": "3.5.3",
